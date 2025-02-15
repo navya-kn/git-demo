@@ -3,6 +3,7 @@ package com.example.git;
 public class Product {
 
     private int productId;
+    private String productBrand;
     private String productName;
     private int price;
 
@@ -28,5 +29,13 @@ public class Product {
 
     public void setPrice(int price) {
         this.price = price;
+    }
+
+    public String getProductBrand() {
+        return productBrand;
+    }
+
+    public void setProductBrand(String productBrand) {
+        this.productBrand = productBrand;
     }
 }
